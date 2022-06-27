@@ -1,0 +1,9 @@
+CREATE DATABASE exemplo;
+
+USE exemplo;
+
+Create table PRODUTOS (
+    id int(11) NOT NULL AUTO_INCREMENT,
+    descricao varchar(50) DEFAULT NULL,
+    PRIMARY KEY(id)
+);
